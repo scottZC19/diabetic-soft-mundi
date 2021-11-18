@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postre1diabetes1">
+    <Button
+        android:id="@+id/btnsalir6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="Regresar"
+        android:textColor="#267D20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="281dp"
+        android:layout_height="37dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Helado sin azúcar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="103dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/logodiabetic" />
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="680dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="394dp"
+                android:layout_height="285dp"
+                app:srcCompat="@drawable/heladosinazucas" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="281dp"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Ingredientes:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="281dp"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- 300 g de judías verdes."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- 2 huevos."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- 2 dientes de ajo."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Agua"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Aceite de oliva."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Sal,"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Tomillo."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Preparacion:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colocá en un bol el contenido de un pote chico de yogurt natural. Si querés hacerlo con un yogurt saborizado también se puede, solo que a mi me gusta más como queda el natural ya que deja un helado casero con sabor suave. Añadír la mitad del contenido del pote de queso crema, y con un mixer o batidora batir hasta que esté bien integrado y homogénea."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endulzá con una cucharada de stevia líquida y mezclá bien nuevamente. La cantidad de endulzante es a gusto. Cómo yo prefiero que el helado no esté tab dulce sino más bien que se endulce con la fruta, solo pongo una cucharada. Si quieren más pueden ir probando."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En una olla a fuego medio calentá los arándanos hasta que la fruta largue su propio azúcar. Van a ver que sale un poco de vapor, no se asusten que es normal, solo deben hacerlo durante unos 3-4 minutos. Tiene que quedar la fruta blandita, ya que será la pulpa de nuestro helado casero. Es una técnica parecida a la que se usa para hacer mermelada, si quieren saber más pueden ver esta receta de mermelada casera sin azúcar."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:id="@+id/btnyoutube"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FF0000"
+                android:onClick="iryoutubecena1"
+                android:text="Ver en Youtube"
+                app:cornerRadius="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

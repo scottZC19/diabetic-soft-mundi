@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diabetic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_diabetic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Diabetic">
+        <activity
+            android:name=".animacioninicio"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".calculadoraimc"
+            android:exported="true" />
+        <activity
+            android:name=".postre1diabetes1"
+            android:exported="true" />
+        <activity
+            android:name=".Almuerzo1diabetes1"
+            android:exported="true" />
+        <activity
+            android:name=".desayuno1diabetes1"
+            android:exported="true" />
+        <activity
+            android:name=".cena1diabetes1"
+            android:exported="true" />
+        <activity
+            android:name=".regue5"
+            android:exported="true" />
+        <activity
+            android:name=".regue4"
+            android:exported="true" />
+        <activity
+            android:name=".regue3"
+            android:exported="true" />
+        <activity
+            android:name=".regue2"
+            android:exported="true" />
+        <activity
+            android:name=".regue1"
+            android:exported="true" />
+        <activity
+            android:name=".reguetonprincipal"
+            android:exported="true" />
+        <activity
+            android:name=".diabetes2"
+            android:exported="true" />
+        <activity
+            android:name=".dietapostre1"
+            android:exported="true" />
+        <activity
+            android:name=".dietascena1"
+            android:exported="true" />
+        <activity
+            android:name=".dietasalmuerzo1"
+            android:exported="true" />
+        <activity
+            android:name=".salsaprincipal"
+            android:exported="true" />
+        <activity
+            android:name=".musica1"
+            android:exported="true" />
+        <activity
+            android:name=".dietasdesayunod1"
+            android:exported="true" />
+        <activity
+            android:name=".diabtes1"
+            android:exported="true" />
+        <activity
+            android:name=".Tipodediabetes"
+            android:exported="true" />
+        <activity
+            android:name=".registro"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+
+
+    </application>
+
+</manifest>
